@@ -349,6 +349,7 @@ header {
             position: relative;
             margin-bottom: 10px;
             img {
+                width: 100%;
                 border-radius: 8px;
             }
             .orange-tag {
@@ -398,3 +399,45 @@ header {
 }
 
 // responsive
+@media (max-width: 999px) {
+    header {
+        .logo-box {
+            width: 12%;
+        }
+        .icon-box {
+            width: 12%;
+        }
+    }
+    .trending-area {
+        .item-box {
+            width: 31%;
+            .inside-row {
+                div {
+                    width: 40%;
+                }
+            }
+        }
+    }
+}
+@media (max-width: 800px) {
+    header {
+        .logo-box {
+            width: 40%;
+        }
+        .menu-box {
+            display: none;
+        }
+        .icon-box {
+            width: 40%;
+        }
+    }
+    .banner-area {
+        padding: 100px 0 10px;
+    }
+    .trending-area {
+        .item-box {
+            width: 100%;
+            margin-bottom: 20px;
+        }
+    }
+}
