@@ -25,7 +25,7 @@ menuItem.forEach(function(item) {
     });
 });
 
-// hide
+// hide 
 window.addEventListener("click", function(event) {
     if (!dropdownBox.contains(event.target)) {
         dropdownBox.style.display = "none";
